@@ -1,12 +1,15 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.jonas.photogallery',
   appName: 'photo-gallery',
   webDir: 'www',
+  server: {
+    androidScheme: 'https',
+  },
   plugins: {
     LiveUpdates: {
-      appId: '042a1261',
+      appId: '851b7351',
       channel: 'Production',
       autoUpdateMethod: 'background',
       maxVersions: 2,
